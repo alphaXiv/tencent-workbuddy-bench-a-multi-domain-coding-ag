@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "security_mean_absolute_harness_shift_points": 8.6
+  },
+  "observed": {
+    "tasks": 8,
+    "harnesses": 2,
+    "seeds": 3,
+    "primary_trials": 48,
+    "security_mean_absolute_task_shift_points": 22.9,
+    "security_aggregate_edit_first": 0.3958333333,
+    "security_aggregate_plan_first": 0.4166666667,
+    "security_aggregate_delta_points": 2.0833333333,
+    "deterministic_mean_absolute_task_shift_points": 8.9743589744,
+    "policy_mean_absolute_task_shift_points": 0.0,
+    "security_seed_sd_edit_first_points": 9.5470326978,
+    "security_seed_sd_plan_first_points": 3.6084391824
+  },
+  "compute": {
+    "backend": "kubernetes",
+    "gpu_model": "NVIDIA RTX PRO 6000 Blackwell",
+    "peak_concurrent_gpus": 16,
+    "wall_hours": 0.504
+  }
+}

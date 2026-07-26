@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="460" viewBox="0 0 900 460" role="img" aria-labelledby="title desc">
+  <title id="title">Episode completion rates by task family</title>
+  <desc id="desc">Completion changes in different directions across deterministic, policy, and Security tasks.</desc>
+  <rect width="900" height="460" fill="#fbfaf7"/>
+  <style>text{font-family:Inter,Arial,sans-serif;fill:#17202a}.title{font-size:24px;font-weight:700}.sub{font-size:14px;fill:#5e6a73}.label{font-size:15px}.tick{font-size:12px;fill:#69757f}.grid{stroke:#dfe4e7}.edit{fill:#2176ae}.plan{fill:#ef6f6c}.value{font-size:12px;font-weight:700}</style>
+  <text x="36" y="42" class="title">Trajectory completion changed independently of score</text>
+  <text x="36" y="68" class="sub">Share of episodes emitting a finish action</text>
+  <line x1="110" y1="100" x2="830" y2="100" class="grid"/><text x="72" y="105" class="tick">100%</text>
+  <line x1="110" y1="240" x2="830" y2="240" class="grid"/><text x="80" y="245" class="tick">50%</text>
+  <line x1="110" y1="380" x2="830" y2="380" class="grid"/><text x="88" y="385" class="tick">0%</text>
+  <rect x="180" y="240" width="48" height="140" class="edit"/><rect x="238" y="333" width="48" height="47" class="plan"/><text x="187" y="232" class="value">50.0</text><text x="245" y="325" class="value">16.7</text>
+  <rect x="400" y="380" width="48" height="0" class="edit"/><rect x="458" y="333" width="48" height="47" class="plan"/><text x="412" y="370" class="value">0.0</text><text x="465" y="325" class="value">16.7</text>
+  <rect x="620" y="147" width="48" height="233" class="edit"/><rect x="678" y="193" width="48" height="187" class="plan"/><text x="627" y="139" class="value">83.3</text><text x="685" y="185" class="value">66.7</text>
+  <text x="165" y="415" class="label">Deterministic</text><text x="405" y="415" class="label">Policy</text><text x="620" y="415" class="label">Security</text>
+  <rect x="620" y="55" width="14" height="14" class="edit"/><text x="642" y="67" class="sub">edit-first</text><rect x="720" y="55" width="14" height="14" class="plan"/><text x="742" y="67" class="sub">plan-first</text>
+</svg>

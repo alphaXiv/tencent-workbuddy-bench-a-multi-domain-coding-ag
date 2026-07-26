@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="620" viewBox="0 0 1000 620" role="img" aria-labelledby="title desc">
+  <title id="title">Task-level scores under edit-first and plan-first scaffolds</title>
+  <desc id="desc">Eight horizontal dumbbells show large opposing Security shifts and smaller Code shifts.</desc>
+  <rect width="1000" height="620" fill="#fbfaf7"/>
+  <style>text{font-family:Inter,Arial,sans-serif;fill:#17202a}.title{font-size:25px;font-weight:700}.sub{font-size:14px;fill:#52606d}.label{font-size:14px}.group{font-size:13px;font-weight:700;letter-spacing:1px;fill:#68737d}.tick{font-size:12px;fill:#66717c}.val{font-size:12px;font-weight:700}.grid{stroke:#dde2e6;stroke-width:1}.join{stroke:#9aa6af;stroke-width:3}.edit{fill:#2176ae}.plan{fill:#ef6f6c}</style>
+  <text x="40" y="42" class="title">The same model changed task ordering when the scaffold changed</text>
+  <text x="40" y="68" class="sub">Official grader score, mean of three seeds · percentage points</text>
+  <circle cx="730" cy="57" r="6" class="edit"/><text x="742" y="62" class="sub">edit-first</text>
+  <circle cx="840" cy="57" r="6" class="plan"/><text x="852" y="62" class="sub">plan-first</text>
+  <g>
+    <line x1="420" y1="95" x2="420" y2="585" class="grid"/><text x="414" y="605" class="tick">0</text>
+    <line x1="495" y1="95" x2="495" y2="585" class="grid"/><text x="485" y="605" class="tick">10</text>
+    <line x1="570" y1="95" x2="570" y2="585" class="grid"/><text x="560" y="605" class="tick">20</text>
+    <line x1="645" y1="95" x2="645" y2="585" class="grid"/><text x="635" y="605" class="tick">30</text>
+    <line x1="720" y1="95" x2="720" y2="585" class="grid"/><text x="710" y="605" class="tick">40</text>
+    <line x1="795" y1="95" x2="795" y2="585" class="grid"/><text x="785" y="605" class="tick">50</text>
+    <line x1="870" y1="95" x2="870" y2="585" class="grid"/><text x="860" y="605" class="tick">60</text>
+  </g>
+  <text x="40" y="112" class="group">SECURITY · INTERACTION</text>
+  <text x="40" y="148" class="label">Agent-to-agent injection</text><line x1="670" y1="144" x2="857" y2="144" class="join"/><circle cx="857" cy="144" r="8" class="edit"/><circle cx="670" cy="144" r="8" class="plan"/><text x="865" y="140" class="val">58.3</text><text x="641" y="140" class="val">33.3</text>
+  <text x="40" y="198" class="label">Privilege-token exfiltration</text><line x1="608" y1="194" x2="733" y2="194" class="join"/><circle cx="733" cy="194" r="8" class="edit"/><circle cx="608" cy="194" r="8" class="plan"/><text x="741" y="190" class="val">41.7</text><text x="579" y="190" class="val">25.0</text>
+  <text x="40" y="248" class="label">ReAct thought hijack</text><line x1="608" y1="244" x2="795" y2="244" class="join"/><circle cx="608" cy="244" r="8" class="edit"/><circle cx="795" cy="244" r="8" class="plan"/><text x="579" y="240" class="val">25.0</text><text x="803" y="240" class="val">50.0</text>
+  <text x="40" y="298" class="label">Tool-schema confusion</text><line x1="670" y1="294" x2="857" y2="294" class="join"/><circle cx="670" cy="294" r="8" class="edit"/><circle cx="857" cy="294" r="8" class="plan"/><text x="641" y="290" class="val">33.3</text><text x="865" y="290" class="val">58.3</text>
+  <text x="40" y="348" class="group">CODE · DETERMINISTIC</text>
+  <text x="40" y="384" class="label">Calibration bins</text><line x1="420" y1="380" x2="536" y2="380" class="join"/><circle cx="420" cy="380" r="8" class="edit"/><circle cx="536" cy="380" r="8" class="plan"/><text x="544" y="376" class="val">15.4</text>
+  <text x="40" y="434" class="label">Label conflicts</text><line x1="420" y1="430" x2="440" y2="430" class="join"/><circle cx="420" cy="430" r="8" class="edit"/><circle cx="440" cy="430" r="8" class="plan"/><text x="448" y="426" class="val">2.6</text>
+  <text x="40" y="484" class="group">CODE · POLICY</text>
+  <text x="40" y="520" class="label">Audit-event export</text><circle cx="593" cy="516" r="10" class="edit"/><circle cx="593" cy="516" r="6" class="plan"/><text x="605" y="512" class="val">23.1 / 23.1</text>
+  <text x="40" y="570" class="label">Refund policy</text><circle cx="478" cy="566" r="10" class="edit"/><circle cx="478" cy="566" r="6" class="plan"/><text x="490" y="562" class="val">7.7 / 7.7</text>
+</svg>

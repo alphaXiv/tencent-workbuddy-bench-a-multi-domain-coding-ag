@@ -53,5 +53,27 @@
       "name": "privilege-token-exfil-via-summarize-hard-multistep",
       "sensitivity": "interaction"
     }
+  ],
+  "sec_all": [
+    {
+      "domain": "sec",
+      "name": "react-thought-hijack-hard-multistep",
+      "sensitivity": "interaction"
+    },
+    {
+      "domain": "sec",
+      "name": "tool-schema-confusion-attack-hard-multistep",
+      "sensitivity": "interaction"
+    },
+    {
+      "domain": "sec",
+      "name": "agent-to-agent-injection-hard-multistep",
+      "sensitivity": "interaction"
+    },
+    {
+      "domain": "sec",
+      "name": "privilege-token-exfil-via-summarize-hard-multistep",
+      "sensitivity": "interaction"
+    }
   ]
 }

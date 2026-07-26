@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="470" viewBox="0 0 900 470" role="img" aria-labelledby="title desc">
+  <title id="title">Security mean score across three seeds</title>
+  <desc id="desc">Edit-first varies from 31.3 to 50 while plan-first varies from 37.5 to 43.8.</desc>
+  <rect width="900" height="470" fill="#fbfaf7"/>
+  <style>text{font-family:Inter,Arial,sans-serif;fill:#17202a}.title{font-size:24px;font-weight:700}.sub{font-size:14px;fill:#5e6a73}.tick{font-size:12px;fill:#69757f}.grid{stroke:#dfe4e7}.editline{fill:none;stroke:#2176ae;stroke-width:4}.planline{fill:none;stroke:#ef6f6c;stroke-width:4}.edit{fill:#2176ae}.plan{fill:#ef6f6c}.value{font-size:13px;font-weight:700}</style>
+  <text x="36" y="42" class="title">The aggregate harness gap is smaller than seed variation</text>
+  <text x="36" y="68" class="sub">Four-task Security mean · official score in percent</text>
+  <line x1="120" y1="120" x2="820" y2="120" class="grid"/><text x="76" y="125" class="tick">55</text>
+  <line x1="120" y1="227" x2="820" y2="227" class="grid"/><text x="76" y="232" class="tick">45</text>
+  <line x1="120" y1="333" x2="820" y2="333" class="grid"/><text x="76" y="338" class="tick">35</text>
+  <line x1="120" y1="420" x2="820" y2="420" class="grid"/><text x="76" y="425" class="tick">25</text>
+  <polyline points="220,173 470,373 720,307" class="editline"/><polyline points="220,307 470,240 720,240" class="planline"/>
+  <circle cx="220" cy="173" r="9" class="edit"/><circle cx="470" cy="373" r="9" class="edit"/><circle cx="720" cy="307" r="9" class="edit"/>
+  <circle cx="220" cy="307" r="9" class="plan"/><circle cx="470" cy="240" r="9" class="plan"/><circle cx="720" cy="240" r="9" class="plan"/>
+  <text x="204" y="155" class="value">50.0</text><text x="452" y="398" class="value">31.3</text><text x="704" y="333" class="value">37.5</text>
+  <text x="204" y="333" class="value">37.5</text><text x="452" y="222" class="value">43.8</text><text x="704" y="222" class="value">43.8</text>
+  <text x="210" y="450" class="sub">seed 0</text><text x="460" y="450" class="sub">seed 1</text><text x="710" y="450" class="sub">seed 2</text>
+  <circle cx="620" cy="75" r="6" class="edit"/><text x="632" y="80" class="sub">edit-first</text><circle cx="720" cy="75" r="6" class="plan"/><text x="732" y="80" class="sub">plan-first</text>
+</svg>
