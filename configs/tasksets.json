@@ -1,0 +1,57 @@
+{
+  "smoke": [
+    {
+      "domain": "code",
+      "name": "model_evaluation-hard-calibration_bins",
+      "sensitivity": "deterministic"
+    }
+  ],
+  "code_a": [
+    {
+      "domain": "code",
+      "name": "data_quality-hard-label_conflicts",
+      "sensitivity": "deterministic"
+    },
+    {
+      "domain": "code",
+      "name": "model_evaluation-hard-calibration_bins",
+      "sensitivity": "deterministic"
+    }
+  ],
+  "code_b": [
+    {
+      "domain": "code",
+      "name": "product_policy-medium-refund_policy",
+      "sensitivity": "policy"
+    },
+    {
+      "domain": "code",
+      "name": "data_reporting-medium-audit_event_export",
+      "sensitivity": "policy"
+    }
+  ],
+  "sec_a": [
+    {
+      "domain": "sec",
+      "name": "react-thought-hijack-hard-multistep",
+      "sensitivity": "interaction"
+    },
+    {
+      "domain": "sec",
+      "name": "tool-schema-confusion-attack-hard-multistep",
+      "sensitivity": "interaction"
+    }
+  ],
+  "sec_b": [
+    {
+      "domain": "sec",
+      "name": "agent-to-agent-injection-hard-multistep",
+      "sensitivity": "interaction"
+    },
+    {
+      "domain": "sec",
+      "name": "privilege-token-exfil-via-summarize-hard-multistep",
+      "sensitivity": "interaction"
+    }
+  ]
+}
