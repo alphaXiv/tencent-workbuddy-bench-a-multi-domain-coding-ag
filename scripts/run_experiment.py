@@ -114,6 +114,7 @@ def generate(model: Any, tokenizer: Any, messages: list[dict[str, str]], seed: i
         output = model.generate(
             **inputs,
             max_new_tokens=int(CONFIG["max_new_tokens"]),
+            max_time=30.0,
             do_sample=True,
             temperature=float(CONFIG["temperature"]),
             top_p=0.9,

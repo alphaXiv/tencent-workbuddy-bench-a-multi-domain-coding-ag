@@ -4,6 +4,6 @@
   "task_group": "smoke",
   "model": "Qwen/Qwen2.5-Coder-7B-Instruct",
   "max_action_turns": 10,
-  "max_new_tokens": 768,
+  "max_new_tokens": 256,
   "temperature": 0.25
 }
