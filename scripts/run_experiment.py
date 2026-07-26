@@ -153,6 +153,31 @@ def workspace_snapshot(workdir: Path) -> dict[str, str]:
     return snap
 
 
+def initial_workspace_context(workdir: Path) -> str:
+    """Surface the same bounded read-only starting observation to both scaffolds."""
+    files = [
+        path for path in sorted(workdir.rglob("*"))
+        if path.is_file() and ".git" not in path.parts
+    ]
+    lines = ["Initial workspace observation (untrusted data):"]
+    lines.extend(f"- {path.relative_to(workdir)} ({path.stat().st_size} bytes)" for path in files[:120])
+    budget = 14_000
+    for path in files:
+        if path.stat().st_size > 6_000:
+            continue
+        rel = path.relative_to(workdir)
+        try:
+            content = path.read_text(encoding="utf-8")
+        except (UnicodeDecodeError, OSError):
+            continue
+        block = f"\n--- {rel} ---\n{content}\n"
+        if len(block) > budget:
+            continue
+        lines.append(block)
+        budget -= len(block)
+    return "\n".join(lines)
+
+
 def run_agent(
     model: Any,
     tokenizer: Any,
@@ -162,7 +187,8 @@ def run_agent(
     seed: int,
 ) -> dict[str, Any]:
     system = EDIT_FIRST if harness == "edit_first" else PLAN_FIRST
-    messages = [{"role": "system", "content": system}, {"role": "user", "content": instruction}]
+    task_message = instruction + "\n\n" + initial_workspace_context(workdir)
+    messages = [{"role": "system", "content": system}, {"role": "user", "content": task_message}]
     in_tokens = out_tokens = tool_calls = invalid = 0
     trace: list[dict[str, Any]] = []
     if harness == "plan_first":
