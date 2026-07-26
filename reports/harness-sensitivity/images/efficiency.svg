@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="410" viewBox="0 0 920 410" role="img">
+  <rect width="920" height="410" fill="white" />
+  <text x="42.0" y="42.0" fill="#172033" font-family="Inter,Arial,sans-serif" font-size="24" text-anchor="start" font-weight="700">Planning costs more interaction without a uniform score gain</text>
+  <text x="42.0" y="70.0" fill="#64748b" font-family="Inter,Arial,sans-serif" font-size="15" text-anchor="start" font-weight="400">Means over 12 Security task episodes per scaffold</text>
+  <text x="42.0" y="115.0" fill="#172033" font-family="Inter,Arial,sans-serif" font-size="15" text-anchor="start" font-weight="700">Completion</text>
+  <rect x="42" y="155" width="205" height="28" rx="4" fill="#f6f8fc" />
+  <rect x="42" y="155" width="170.8" height="28" rx="4" fill="#d97706" />
+  <text x="42.0" y="147.0" fill="#64748b" font-family="Inter,Arial,sans-serif" font-size="12" text-anchor="start" font-weight="400">edit-first</text>
+  <text x="247.0" y="175.0" fill="#172033" font-family="Inter,Arial,sans-serif" font-size="14" text-anchor="end" font-weight="700">83.3%</text>
+  <rect x="42" y="243" width="205" height="28" rx="4" fill="#f6f8fc" />
+  <rect x="42" y="243" width="136.7" height="28" rx="4" fill="#2563eb" />
+  <text x="42.0" y="235.0" fill="#64748b" font-family="Inter,Arial,sans-serif" font-size="12" text-anchor="start" font-weight="400">plan-first</text>
+  <text x="247.0" y="263.0" fill="#172033" font-family="Inter,Arial,sans-serif" font-size="14" text-anchor="end" font-weight="700">66.7%</text>
+  <text x="260.0" y="115.0" fill="#172033" font-family="Inter,Arial,sans-serif" font-size="15" text-anchor="start" font-weight="700">Tool calls</text>
+  <rect x="260" y="155" width="205" height="28" rx="4" fill="#f6f8fc" />
+  <rect x="260" y="155" width="107.8" height="28" rx="4" fill="#d97706" />
+  <text x="260.0" y="147.0" fill="#64748b" font-family="Inter,Arial,sans-serif" font-size="12" text-anchor="start" font-weight="400">edit-first</text>
+  <text x="465.0" y="175.0" fill="#172033" font-family="Inter,Arial,sans-serif" font-size="14" text-anchor="end" font-weight="700">3.4</text>
+  <rect x="260" y="243" width="205" height="28" rx="4" fill="#f6f8fc" />
+  <rect x="260" y="243" width="170.8" height="28" rx="4" fill="#2563eb" />
+  <text x="260.0" y="235.0" fill="#64748b" font-family="Inter,Arial,sans-serif" font-size="12" text-anchor="start" font-weight="400">plan-first</text>
+  <text x="465.0" y="263.0" fill="#172033" font-family="Inter,Arial,sans-serif" font-size="14" text-anchor="end" font-weight="700">5.4</text>
+  <text x="478.0" y="115.0" fill="#172033" font-family="Inter,Arial,sans-serif" font-size="15" text-anchor="start" font-weight="700">Input tokens</text>
+  <rect x="478" y="155" width="205" height="28" rx="4" fill="#f6f8fc" />
+  <rect x="478" y="155" width="101.2" height="28" rx="4" fill="#d97706" />
+  <text x="478.0" y="147.0" fill="#64748b" font-family="Inter,Arial,sans-serif" font-size="12" text-anchor="start" font-weight="400">edit-first</text>
+  <text x="683.0" y="175.0" fill="#172033" font-family="Inter,Arial,sans-serif" font-size="14" text-anchor="end" font-weight="700">3,998</text>
+  <rect x="478" y="243" width="205" height="28" rx="4" fill="#f6f8fc" />
+  <rect x="478" y="243" width="170.8" height="28" rx="4" fill="#2563eb" />
+  <text x="478.0" y="235.0" fill="#64748b" font-family="Inter,Arial,sans-serif" font-size="12" text-anchor="start" font-weight="400">plan-first</text>
+  <text x="683.0" y="263.0" fill="#172033" font-family="Inter,Arial,sans-serif" font-size="14" text-anchor="end" font-weight="700">6,747</text>
+  <text x="696.0" y="115.0" fill="#172033" font-family="Inter,Arial,sans-serif" font-size="15" text-anchor="start" font-weight="700">Task seconds</text>
+  <rect x="696" y="155" width="205" height="28" rx="4" fill="#f6f8fc" />
+  <rect x="696" y="155" width="99.5" height="28" rx="4" fill="#d97706" />
+  <text x="696.0" y="147.0" fill="#64748b" font-family="Inter,Arial,sans-serif" font-size="12" text-anchor="start" font-weight="400">edit-first</text>
+  <text x="901.0" y="175.0" fill="#172033" font-family="Inter,Arial,sans-serif" font-size="14" text-anchor="end" font-weight="700">3.4s</text>
+  <rect x="696" y="243" width="205" height="28" rx="4" fill="#f6f8fc" />
+  <rect x="696" y="243" width="170.8" height="28" rx="4" fill="#2563eb" />
+  <text x="696.0" y="235.0" fill="#64748b" font-family="Inter,Arial,sans-serif" font-size="12" text-anchor="start" font-weight="400">plan-first</text>
+  <text x="901.0" y="263.0" fill="#172033" font-family="Inter,Arial,sans-serif" font-size="14" text-anchor="end" font-weight="700">5.9s</text>
+  <text x="42.0" y="374.0" fill="#d97706" font-family="Inter,Arial,sans-serif" font-size="13" text-anchor="start" font-weight="700">Edit-first</text>
+  <text x="125.0" y="374.0" fill="#2563eb" font-family="Inter,Arial,sans-serif" font-size="13" text-anchor="start" font-weight="700">Plan-first</text>
+</svg>

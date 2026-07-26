@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="470" viewBox="0 0 1100 470" role="img">
+  <rect width="1100" height="470" fill="white" />
+  <text x="42.0" y="42.0" fill="#172033" font-family="Inter,Arial,sans-serif" font-size="24" text-anchor="start" font-weight="700">Harness shifts are largest on interaction-sensitive Security tasks</text>
+  <text x="42.0" y="70.0" fill="#64748b" font-family="Inter,Arial,sans-serif" font-size="15" text-anchor="start" font-weight="400">Mean absolute score difference; percentage points</text>
+  <line x1="280.0" y1="118.0" x2="280.0" y2="400.0" stroke="#dbe3ef" stroke-width="1" />
+  <text x="280.0" y="424.0" fill="#64748b" font-family="Inter,Arial,sans-serif" font-size="13" text-anchor="middle" font-weight="400">0</text>
+  <line x1="406.7" y1="118.0" x2="406.7" y2="400.0" stroke="#dbe3ef" stroke-width="1" />
+  <text x="406.7" y="424.0" fill="#64748b" font-family="Inter,Arial,sans-serif" font-size="13" text-anchor="middle" font-weight="400">5</text>
+  <line x1="533.3" y1="118.0" x2="533.3" y2="400.0" stroke="#dbe3ef" stroke-width="1" />
+  <text x="533.3" y="424.0" fill="#64748b" font-family="Inter,Arial,sans-serif" font-size="13" text-anchor="middle" font-weight="400">10</text>
+  <line x1="660.0" y1="118.0" x2="660.0" y2="400.0" stroke="#dbe3ef" stroke-width="1" />
+  <text x="660.0" y="424.0" fill="#64748b" font-family="Inter,Arial,sans-serif" font-size="13" text-anchor="middle" font-weight="400">15</text>
+  <line x1="786.7" y1="118.0" x2="786.7" y2="400.0" stroke="#dbe3ef" stroke-width="1" />
+  <text x="786.7" y="424.0" fill="#64748b" font-family="Inter,Arial,sans-serif" font-size="13" text-anchor="middle" font-weight="400">20</text>
+  <line x1="913.3" y1="118.0" x2="913.3" y2="400.0" stroke="#dbe3ef" stroke-width="1" />
+  <text x="913.3" y="424.0" fill="#64748b" font-family="Inter,Arial,sans-serif" font-size="13" text-anchor="middle" font-weight="400">25</text>
+  <line x1="1040.0" y1="118.0" x2="1040.0" y2="400.0" stroke="#dbe3ef" stroke-width="1" />
+  <text x="1040.0" y="424.0" fill="#64748b" font-family="Inter,Arial,sans-serif" font-size="13" text-anchor="middle" font-weight="400">30</text>
+  <text x="262.0" y="160.0" fill="#172033" font-family="Inter,Arial,sans-serif" font-size="15" text-anchor="end" font-weight="600">Deterministic Code</text>
+  <rect x="280" y="136" width="227.4" height="28" rx="4" fill="#2563eb" />
+  <rect x="280" y="170" width="194.9" height="14" rx="3" fill="#a8b4c8" />
+  <text x="516.4" y="157.0" fill="#2563eb" font-family="Inter,Arial,sans-serif" font-size="15" text-anchor="start" font-weight="700">9.0</text>
+  <text x="483.9" y="182.0" fill="#64748b" font-family="Inter,Arial,sans-serif" font-size="13" text-anchor="start" font-weight="400">7.7</text>
+  <text x="262.0" y="258.0" fill="#172033" font-family="Inter,Arial,sans-serif" font-size="15" text-anchor="end" font-weight="600">Policy / reporting Code</text>
+  <rect x="280" y="234" width="0.0" height="28" rx="4" fill="#2563eb" />
+  <rect x="280" y="268" width="0.0" height="14" rx="3" fill="#a8b4c8" />
+  <text x="289.0" y="255.0" fill="#2563eb" font-family="Inter,Arial,sans-serif" font-size="15" text-anchor="start" font-weight="700">0.0</text>
+  <text x="289.0" y="280.0" fill="#64748b" font-family="Inter,Arial,sans-serif" font-size="13" text-anchor="start" font-weight="400">0.0</text>
+  <text x="262.0" y="356.0" fill="#172033" font-family="Inter,Arial,sans-serif" font-size="15" text-anchor="end" font-weight="600">Interaction-sensitive Security</text>
+  <rect x="280" y="332" width="686.1" height="28" rx="4" fill="#2563eb" />
+  <rect x="280" y="366" width="369.4" height="14" rx="3" fill="#a8b4c8" />
+  <text x="975.1" y="353.0" fill="#2563eb" font-family="Inter,Arial,sans-serif" font-size="15" text-anchor="start" font-weight="700">27.1</text>
+  <text x="658.4" y="378.0" fill="#64748b" font-family="Inter,Arial,sans-serif" font-size="13" text-anchor="start" font-weight="400">14.6</text>
+  <rect x="42" y="444" width="16" height="12" fill="#2563eb" />
+  <text x="65.0" y="455.0" fill="#172033" font-family="Inter,Arial,sans-serif" font-size="13" text-anchor="start" font-weight="400">cross-harness</text>
+  <rect x="190" y="447" width="16" height="8" fill="#a8b4c8" />
+  <text x="213.0" y="455.0" fill="#172033" font-family="Inter,Arial,sans-serif" font-size="13" text-anchor="start" font-weight="400">within-harness seed variation</text>
+</svg>
