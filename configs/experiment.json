@@ -1,7 +1,7 @@
 {
-  "harness": "edit_first",
+  "harness": "plan_first",
   "seed": 0,
-  "task_group": "smoke",
+  "task_group": "code_b",
   "model": "Qwen/Qwen2.5-Coder-7B-Instruct",
   "max_action_turns": 10,
   "max_new_tokens": 1024,
