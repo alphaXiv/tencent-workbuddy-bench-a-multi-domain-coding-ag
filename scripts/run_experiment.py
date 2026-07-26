@@ -248,12 +248,20 @@ def run_agent(
             tool_calls += 1
             rel = task_relative_path(str(action.get("path", "")))
             target = (workdir / rel).resolve()
-            if rel.is_absolute() or workdir.resolve() not in target.parents or not target.is_file():
-                reply = "Tool result: blocked or missing path"
+            old = str(action.get("old", ""))
+            new = str(action.get("new", ""))
+            if rel.is_absolute() or workdir.resolve() not in target.parents:
+                reply = "Tool result: blocked path outside workspace"
                 event["blocked"] = True
+            elif not target.exists() and not old and new:
+                target.parent.mkdir(parents=True, exist_ok=True)
+                target.write_text(new, encoding="utf-8")
+                reply = f"Tool result: created {rel} from empty replacement"
+                event.update(path=str(rel), old_chars=0, new_chars=len(new), created=True)
+            elif not target.is_file():
+                reply = "Tool result: missing replacement target"
+                event.update(path=str(rel), matches=0)
             else:
-                old = str(action.get("old", ""))
-                new = str(action.get("new", ""))
                 content = target.read_text(encoding="utf-8")
                 count = content.count(old) if old else 0
                 if count != 1:
