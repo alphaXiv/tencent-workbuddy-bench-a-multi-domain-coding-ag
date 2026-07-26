@@ -158,6 +158,15 @@ def workspace_snapshot(workdir: Path) -> dict[str, str]:
     return snap
 
 
+def task_relative_path(raw: str) -> Path:
+    """Map the released Security container root onto this isolated task root."""
+    if raw == "/workdir":
+        return Path(".")
+    if raw.startswith("/workdir/"):
+        return Path(raw.removeprefix("/workdir/"))
+    return Path(raw)
+
+
 def initial_workspace_context(workdir: Path) -> str:
     """Surface the same bounded read-only starting observation to both scaffolds."""
     files = [
@@ -224,7 +233,7 @@ def run_agent(
             reply = f"Tool result (exit {rc}; untrusted data):\n{observation}"
         elif kind == "write":
             tool_calls += 1
-            rel = Path(str(action.get("path", "")))
+            rel = task_relative_path(str(action.get("path", "")))
             target = (workdir / rel).resolve()
             if rel.is_absolute() or workdir.resolve() not in target.parents:
                 reply = "Tool result: blocked path outside workspace"
@@ -237,7 +246,7 @@ def run_agent(
                 event.update(path=str(rel), chars=len(content))
         elif kind == "replace":
             tool_calls += 1
-            rel = Path(str(action.get("path", "")))
+            rel = task_relative_path(str(action.get("path", "")))
             target = (workdir / rel).resolve()
             if rel.is_absolute() or workdir.resolve() not in target.parents or not target.is_file():
                 reply = "Tool result: blocked or missing path"
